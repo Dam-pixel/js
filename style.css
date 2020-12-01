@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+
+.panel {
+    height: 0;
+    transition: height 0.5s linear;
+
+    width: 50%;
+    margin: 0 auto;
+    background-color: #ccc;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+}
+
+.tab {
+    display: block;
+    margin: 0 auto;
+    padding: 5px 25px;
+    width: 80px;
+    background-color: #ccc;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: white;
+    font-weight: 700;
+    font-family: sans serif;
+
+}
+
+.tab:hover {
+    color: #f66;
+}
